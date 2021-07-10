@@ -23,7 +23,7 @@
         <div class="container">
             <img src="{{ asset('images/dc-logo.png') }}" alt="Logo DC Comics">
             <ul>
-                <li><a href="#">Character</a></li>
+                <li><span></span><a href="#">Character</a></li>
                 <li><a href="#">Comics</a></li>
                 <li><a href="#">Movies</a></li>
                 <li><a href="#">Tv</a></li>

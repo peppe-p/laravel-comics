@@ -13,8 +13,50 @@
 .blue_row > div {
   height: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
+}
+
+.main_nav {
+  height: 100px;
+  background-color: burlywood;
+  color: #464646;
+}
+.main_nav > div {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main_nav > div img {
+  height: 70px;
+}
+.main_nav ul, .main_nav li {
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.main_nav ul {
+  justify-content: space-between;
+  padding: 5px 80px;
+}
+.main_nav li {
+  position: relative;
+  justify-content: center;
+}
+.main_nav li > span {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.main_nav li:hover span {
+  border-bottom: 5px solid #0282f9;
+}
+.main_nav a {
+  text-decoration: none;
+  color: initial;
 }
 
 * {
