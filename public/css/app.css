@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap);.blue_row {
+  height: 30px;
+  background-color: #0282f9;
+  color: white;
+}
+.blue_row span {
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-left: 80px;
+}
+.blue_row > div {
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
