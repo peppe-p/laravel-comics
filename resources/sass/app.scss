@@ -8,11 +8,28 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
 .container {
     width: 1200px;
     margin: auto;
 }
 
-body {
-    font-family: 'Oswald', sans-serif;
+// Barra decorativa blu on:hover
+.border_b_dec {
+    position: absolute;
+
+    &:hover {
+        border-bottom: 5px solid $blue_dc;
+    }
+}
+// Barra decorativa blu ATTIVA
+.border_b_dec.active {
+    border-bottom: 5px solid $blue_dc;
+
+    &:hover {
+        border-bottom: null;
+    }
 }

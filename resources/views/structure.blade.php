@@ -23,18 +23,38 @@
         <div class="container">
             <img src="{{ asset('images/dc-logo.png') }}" alt="Logo DC Comics">
             <ul>
-                <li><span></span><a href="#">Character</a></li>
-                <li><a href="#">Comics</a></li>
-                <li><a href="#">Movies</a></li>
-                <li><a href="#">Tv</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Collectibles</a></li>
-                <li><a href="#">Videos</a></li>
-                <li><a href="#">Fans</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Shop</a></li>
+                <li class="border_b_dec">
+                    <a href="#">Character</a>
+                </li>
+                <li class="border_b_dec">
+                    <a href="#">Comics</a>
+                </li>
+                <li class="border_b_dec">
+                    <a href="#">Movies</a>
+                </li>
+                <li class="border_b_dec">
+                    <a href="#">Tv</a>
+                </li>
+                <li class="border_b_dec">
+                    <a href="#">Games</a>
+                </li>
+                <li class="border_b_dec">
+                    <a href="#">Collectibles</a>
+                </li>
+                <li class="border_b_dec">
+                    <a href="#">Videos</a>
+                </li>
+                <li class="border_b_dec">
+                    <a href="#">Fans</a>
+                </li>
+                <li class="border_b_dec">
+                    <a href="#">News</a>
+                </li>
+                <li class="border_b_dec">
+                    <a href="#">Shop</a>
+                </li>
             </ul>
-            <div class="search_box">
+            <div class="search_box border_b_dec active">
                 <input type="text" placeholder="Search">
                 <i class="fas fa-search"></i>
             </div>
