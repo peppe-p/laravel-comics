@@ -86,44 +86,44 @@
                     <div class="left">
                         <ul>
                             <li class="list_title">Dc Comics</li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Characters</li>
+                            <li>Comics</li>
+                            <li>Movies</li>
+                            <li>TV</li>
+                            <li>Games</li>
+                            <li>Videos</li>
+                            <li>News</li>
                         </ul>
 
                         <ul>
                             <li class="list_title">Shop</li>
-                            <li></li>
-                            <li></li>
+                            <li>Shop DC</li>
+                            <li>Shop DC Collectibles</li>
                         </ul>
                     </div>
                     <div class="right">
                         <ul>
                             <li class="list_title">Dc</li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>Terms Of Use</li>
+                            <li>Privacy policy (New)</li>
+                            <li>Ad Choise</li>
+                            <li>Advertising</li>
+                            <li>Jobs</li>
+                            <li>Subscriptions</li>
+                            <li>Talent Workshops</li>
+                            <li>CPSC Certification</li>
+                            <li>Ratings</li>
+                            <li>Shop Help</li>
+                            <li>Contact Us</li>
                         </ul>
 
                         <ul>
                             <li class="list_title">Sites</li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+                            <li>DC</li>
+                            <li>MAD Magazine</li>
+                            <li>DC Kids</li>
+                            <li>DC Universe</li>
+                            <li>DC Power Visa</li>
                         </ul>
                     </div>
                 </div>
@@ -132,10 +132,10 @@
                         All Site Content TM and &reg; 2020 DC Entertainment unless otherwise <a href="#">noted here</a>.
                         All rights reserver.
                     </span>
+                    <br>
                     <a href="#">Cookies Settings</a>
                 </div>
             </div>
-            <div><img src="#" alt="DC Comics Logo"></div>
         </div>
     </div>
 
