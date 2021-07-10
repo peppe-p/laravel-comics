@@ -75,7 +75,7 @@
 
 <body>
     <section>
-        @yield('test')
+        @yield('main')
     </section>
 </body>
 

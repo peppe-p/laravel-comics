@@ -1,6 +1,8 @@
 @extends('structure')
 @section('title', 'Home')
 
-@section('test')
-    <h1>Questa è la home</h1>
+@section('main')
+    <div class="container">
+        <h1>Questa è la home</h1>
+    </div>
 @endsection
