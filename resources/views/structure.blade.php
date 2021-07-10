@@ -22,13 +22,15 @@
 
     <div class="main_nav">
         <div class="container">
-            <img src="{{ asset('images/dc-logo.png') }}" alt="Logo DC Comics">
+            <a href="{{ route('home') }}">
+                <img src="{{ asset('images/dc-logo.png') }}" alt="Logo DC Comics">
+            </a>
             <ul>
                 <li class="border_b_dec">
                     <a href="#">Character</a>
                 </li>
                 <li class="border_b_dec">
-                    <a href="#">Comics</a>
+                    <a href="{{ route('comics') }}">Comics</a>
                 </li>
                 <li class="border_b_dec">
                     <a href="#">Movies</a>
