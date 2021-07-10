@@ -11,6 +11,7 @@
 
 </head>
 
+{{-- ##### HEADER PAGE ##### --}}
 <header>
     <div class="blue_row">
         <div class="container">
@@ -68,11 +69,18 @@
         </div>
     </div>
 </header>
+{{-- ##### END HEADER ##### --}}
 
 <body>
     <section>
         @yield('test')
     </section>
 </body>
+
+{{-- ##### FOOTER PAGE ##### --}}
+<footer>
+
+</footer>
+{{-- ##### END FOOTER ##### --}}
 
 </html>
