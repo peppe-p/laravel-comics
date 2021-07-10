@@ -51,7 +51,7 @@
 
     & ul {
         justify-content: space-between;
-        padding: 5px 80px;
+        padding: 0px 80px;
     }
 
     & li {
@@ -60,9 +60,12 @@
         text-transform: uppercase;
 
         &:hover {
-            border-bottom: 5px solid $blue_dc;
-            margin-bottom: -5px;
             cursor: pointer;
+        }
+
+        & i {
+            color: $blue_dc;
+            margin: 0px 5px;
         }
     }
 
@@ -73,16 +76,32 @@
     }
 
     .search_box {
-        height: 30px;
         position: relative;
         display: flex;
-        padding: 5px;
+        padding: 3px 0px;
+        border-bottom: 3px solid $blue_dc;
+        margin-bottom: -3px;
 
         & input {
             border: none;
             text-align: right;
-            height: 100%;
+            padding: 0px 6px;
+            font-weight: 600;
+            font-family: 'Oswald', sans-serif;
+
+            &:focus-visible {
+                outline: none;
+            }
         }
     }
 
 }
+
+
+// Jumbotron on header
+    .jumbo {
+        height: 400px;
+        background-image: url('../images/jumbotron.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }

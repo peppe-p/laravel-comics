@@ -52,9 +52,10 @@
                 </li>
                 <li class="border_b_dec">
                     <a href="#">Shop</a>
+                    <i class="fas fa-caret-down"></i>
                 </li>
             </ul>
-            <div class="search_box border_b_dec active">
+            <div class="search_box">
                 <input type="text" placeholder="Search">
                 <i class="fas fa-search"></i>
             </div>

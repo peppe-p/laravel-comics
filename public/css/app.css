@@ -40,7 +40,7 @@
 }
 .main_nav ul {
   justify-content: space-between;
-  padding: 5px 80px;
+  padding: 0px 80px;
 }
 .main_nav li {
   position: relative;
@@ -48,24 +48,39 @@
   text-transform: uppercase;
 }
 .main_nav li:hover {
-  border-bottom: 5px solid #0282f9;
-  margin-bottom: -5px;
   cursor: pointer;
+}
+.main_nav li i {
+  color: #0282f9;
+  margin: 0px 5px;
 }
 .main_nav a {
   text-decoration: none;
   color: initial;
 }
 .main_nav .search_box {
-  height: 30px;
   position: relative;
   display: flex;
-  padding: 5px;
+  padding: 3px 0px;
+  border-bottom: 3px solid #0282f9;
+  margin-bottom: -3px;
 }
 .main_nav .search_box input {
   border: none;
   text-align: right;
-  height: 100%;
+  padding: 0px 6px;
+  font-weight: 600;
+  font-family: "Oswald", sans-serif;
+}
+.main_nav .search_box input:focus-visible {
+  outline: none;
+}
+
+.jumbo {
+  height: 400px;
+  background-image: url("../images/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 * {
@@ -83,13 +98,17 @@ body {
   margin: auto;
 }
 
-.border_b_dec {
-  position: absolute;
-}
 .border_b_dec:hover {
-  border-bottom: 5px solid #0282f9;
+  box-shadow: inset 0 -5px 0 0 #0282f9;
+  color: #0282f9;
+}
+.border_b_dec:hover > * {
+  color: #0282f9;
 }
 
 .border_b_dec.active {
-  border-bottom: 5px solid #0282f9;
+  box-shadow: inset 0 -5px 0 0 #0282f9;
+}
+.border_b_dec.active > * {
+  color: #0282f9;
 }
