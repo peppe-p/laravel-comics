@@ -4,7 +4,14 @@ footer {
         text-decoration: none;
         list-style: none;
     }
+
+    & a {
+        text-decoration: none;
+        color: initial;
+    }
 }
+
+// Footer with links and lists
 .link_container {
     background-image: url('../images/footer-bg.jpg');
     background-repeat: no-repeat;
@@ -44,18 +51,68 @@ footer {
 
     & .copyright {
         margin-top: 30px;
+        & a:link {
+            color: $blue_dc;
+        }
     }
 }
 
 
-
+// End Bar with social buttons
 .end_footer {
     background-color: $footer_black;
 
     & > div {
-        padding: 50px;
+        padding: 50px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    & .buttons {
+        & button {
+            padding: 10px 15px;
+            border: none;
+            outline: 2px solid $blue_dc;
+            background-color: $footer_black;
+            text-transform: uppercase;
+            color: white;
+            font-size: 1rem;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    & .socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > * {
+            margin: 0 10px;
+        }
+
+        & span {
+            background-color: $text_gray;
+            height: 30px;
+            width: 30px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & i {
+                color: $footer_black;
+                font-size: 1.2rem;
+            }
+        }
+
+        & h5 {
+            text-transform: uppercase;
+            color: $blue_dc;
+            font-size: 1.4rem;
+        }
     }
 }

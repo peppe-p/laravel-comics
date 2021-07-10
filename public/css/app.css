@@ -90,6 +90,10 @@ footer ul, footer li {
   text-decoration: none;
   list-style: none;
 }
+footer a {
+  text-decoration: none;
+  color: initial;
+}
 
 .link_container {
   background-image: url("../images/footer-bg.jpg");
@@ -125,15 +129,56 @@ footer ul, footer li {
 .link_container .copyright {
   margin-top: 30px;
 }
+.link_container .copyright a:link {
+  color: #0282f9;
+}
 
 .end_footer {
   background-color: #303030;
 }
 .end_footer > div {
-  padding: 50px;
+  padding: 50px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.end_footer .buttons button {
+  padding: 10px 15px;
+  border: none;
+  outline: 2px solid #0282f9;
+  background-color: #303030;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1rem;
+}
+.end_footer .buttons button:hover {
+  cursor: pointer;
+}
+.end_footer .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.end_footer .socials > * {
+  margin: 0 10px;
+}
+.end_footer .socials span {
+  background-color: #959595;
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.end_footer .socials span i {
+  color: #303030;
+  font-size: 1.2rem;
+}
+.end_footer .socials h5 {
+  text-transform: uppercase;
+  color: #0282f9;
+  font-size: 1.4rem;
 }
 
 * {
