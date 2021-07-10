@@ -79,7 +79,82 @@
 
 {{-- ##### FOOTER PAGE ##### --}}
 <footer>
+    <div class="link_container">
+        <div class="container">
+            <div>
+                <div class="lists">
+                    <div class="left">
+                        <ul>
+                            <li class="list_title">Dc Comics</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
 
+                        <ul>
+                            <li class="list_title">Shop</li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li class="list_title">Dc</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+
+                        <ul>
+                            <li class="list_title">Sites</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <span>
+                        All Site Content TM and &reg; 2020 DC Entertainment unless otherwise <a href="#">noted here</a>.
+                        All rights reserver.
+                    </span>
+                    <a href="#">Cookies Settings</a>
+                </div>
+            </div>
+            <div><img src="#" alt="DC Comics Logo"></div>
+        </div>
+    </div>
+
+    <div class="end_footer">
+        <div class="container">
+            <div class="buttons">
+                <button>Sign-up now!</button>
+            </div>
+
+            <div class="socials">
+                <h5>Follow us</h5>
+                <span><i class="fab fa-facebook-f"></i></span>
+                <span><i class="fab fa-twitter"></i></span>
+                <span><i class="fab fa-youtube"></i></span>
+                <span><i class="fab fa-pinterest-p"></i></span>
+                <span><i class="fab fa-periscope"></i></span>
+            </div>
+        </div>
+    </div>
 </footer>
 {{-- ##### END FOOTER ##### --}}
 
