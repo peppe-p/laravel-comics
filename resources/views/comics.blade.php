@@ -11,9 +11,9 @@
 
             {{-- Body della pagina --}}
             <div class="comic_list">
-                @foreach ($comics_data as $comic)
+                @foreach ($comics_data as $index => $comic)
                     <div class="comic">
-                        <a href="@">
+                        <a href="{{ route('comic', ['id' => $index]) }}">
                             <img src="{{ $comic['thumb'] }}" alt="Thumbnail of {{ $comic['series'] }}">
                             <h3>{{ $comic['series'] }}</h3>
                         </a>
